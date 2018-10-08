@@ -4,7 +4,7 @@
 
 ## 如何部署API
 - 部署位置有兩個, 1個是192.168.2.52:/BigDataAPI-restful 原始資料
-- -第2個是192.168.2.102:/BigDataAPI-restful 展示用-
+-第2個是192.168.2.102:/BigDataAPI-restful 展示用-
 
 ## 更新ＡＰＩ後如何在伺服器上重啟
 - 更新之前, 請先在本地端確認52的資料是ＯＫ的, 再更新到102
@@ -14,6 +14,13 @@
 - 檔案位置: 192.168.2.124:/etc/nginx/conf.d/locations/api.conf
 - 展示用視覺化ＡＰＩ網址為 http://edudata.foxconn.com/fulearnV4/fulearn/...... 
 - 展示用視覺化ＡＰＩ連的是192.168.2.102的資料庫
+
+## tmux 簡易使用方式
+`tmux` 開啟新的session
+`tmux ls` 查看目前所有session
+`tmux attach -t #` 顯示特定session (簡易版指令 `tmux a -t #`)
+`tmux kill-session -t #` 刪除session
+離開session: 先按`ctrl + b` 再按`d`
 
 ```
 location /fulearnV4 {
