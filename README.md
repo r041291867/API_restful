@@ -16,11 +16,11 @@
 - 展示用視覺化ＡＰＩ連的是192.168.2.102的資料庫
 
 ## tmux 簡易使用方式
-`tmux` 開啟新的session
-`tmux ls` 查看目前所有session
-`tmux attach -t #` 顯示特定session (簡易版指令 `tmux a -t #`)
-`tmux kill-session -t #` 刪除session
-離開session: 先按`ctrl + b` 再按`d`
+- `tmux` 開啟新的session
+- `tmux ls` 查看目前所有session
+- `tmux attach -t #` 顯示特定session (簡易版指令 `tmux a -t #`)
+- `tmux kill-session -t #` 刪除session
+- 離開session: 先按`ctrl + b` 再按`d`
 
 ```
 location /fulearnV4 {
