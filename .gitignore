@@ -1,0 +1,7 @@
+.vscode
+gunicorn/__pycache__
+app/views/__pycache__
+app/config/__pycache__
+app/__pycache__
+Log
+app/config/development.py
